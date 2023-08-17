@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>wara ventures</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/additional.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/wara_ventures_logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/wara_ventures_logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/wara_ventures_logo.pngg">
+    <link rel="manifest" href="site.webmanifest">
+
+ 
+
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+
+
+
+<style>
+
+ 
+    p{
+        color: white;
+    }
+
+ 
+section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -3px;
+  width: 2px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 20%;
+  float: left;
+  /* margin: 5px 0 0 0; */
+  border-radius: 6px;
+  margin: 0px 150px 0 150px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 45px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #14171b;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.inner span.date span.month {
+  margin-top: -5px;
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+    margin-top: -18px;
+  font-size: 10px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+  font-weight: 900;
+  line-height: 1em;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 15px;
+  background: #fff;
+  color: #000000;
+  border-radius: 5px;
+  line-height: 1em;
+  font-weight: 900;
+
+ 
+}
+
+
+section#timeline article div.inner p span{
+ 
+    font-weight: 900;
+ 
+}
+
+.focus_area{
+ padding-bottom : 2px;
+}
+
+ 
+@media (max-width:800px){
+    section#timeline article div.inner h2 {
+ 
+  font-size: 15px;
+ 
+  font-weight: 900;
+  line-height: 1em;
+}
+
+
+.focus_area{
+ padding-bottom : 5px;
+}
+
+
+section#timeline article div.inner span.date span.year {
+    margin-top: -14px;
+ 
+}
+
+ 
+section#timeline article div.inner p {
+ 
+  font-size: 15px;
+  line-height: 1em;
+
+}
+
+section#timeline article div.inner {
+  width: 50%;
+  float: left;
+  margin: 0px -40px 0 -44px;
+  border-radius: 6px;
+}
+
+
+ 
+  }
+
+
+ 
+
+
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(6) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(6) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(7) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(7) div.inner h2:after {
+  background: #fff;
+}
+section#timeline article:nth-child(8) div.inner h2 {
+  background: #f14924;
+}
+section#timeline article:nth-child(8) div.inner h2:after {
+  background: #fff;
+}
+
+
+
+.service-icon{
+  padding-bottom: 80px;
+}
+
+</style>
+ 
+
+
+
+
+
+
+
+
+</head>
+ 
+
+
+      <!-- Opening Animation
+    ================================================== -->
+
+<!-- 
+<div id="opening-animation" class="container_opening_page_animation space">
+    <section class="animation_opening_page_animation"  >
+    <div class="first"><div>Join with</div></div>
+    <div class="second"><div>Go back with</div></div>
+  </section>
+
+  
+  <section class="animation_opening_page_animationa animate__animated animate__slideInRight" style=" animation-duration: 2.0s;" >
+    <div class="first"><div>your dream startup idea</div></div>
+    <div class="second"><div>a business ready for hyper-growth</div></div>
+  </section>
+
+ 
+    
+</div> -->
+
+<!-- <div class="blob"></div> -->
+<body id="top">
+
+      <!-- preloader
+    ================================================== -->
+    <!-- <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+    </div> -->
+    <!-- <div transition-style="in:circle:hesitate" style="animation-duration: 4s;"> -->
+
+   
+    <!-- <div> -->
+   
+      <main>
+ 
+        <!--Gradient-->
+         
+         
+            <!-- header
+            ================================================== -->
+            <header class="s-header  animate__slower" >
+
+
+              <!-- <header class="s-header animate__animated animate__fadeInDownBig  "> -->
+        
+                <div class="s-header__logo">
+                    <a href="index.html">
+                        <img class="button" cursor="link" src="images/wara_ventures_logo.png" alt="Homepage">
+                    </a>
+                </div>
+        
+                <div class="s-header__content">
+            
+                    <nav class="s-header__nav-wrap " >
+                        <ul class="s-header__nav  ">
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="people.html" title="People">People</a></li>
+                            <li><a  href="program.html" title="Program">Programs</a></li>
+                              <li><a  href="apply.html" title="Apply">Apply</a></li>
+                        </ul>
+                    </nav> <!-- end s-header__nav-wrap -->
+        
+
+                
+                    <a href="https://mail.google.com/mail/?view=cm&to=shahriar@waraventures.com" class="btn btn--primary btn--small  get_in_touch" style="background-color: transparent; border: none; 
+                     list-style: none;
+    font-family: var(--font-2);
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0em; 
+    color: var(--color-white); 
+                   ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                        Get In Touch
+                    </a>
+        
+                </div> <!-- end header-content -->
+        
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+        
+            </header> <!-- end s-header -->
+
+
+          <div transition-style="in:square:center"  >
+              <!-- hero
+            ================================================== -->
+            <section id="hero" class="s-hero target-section">
+        
+              <div class="s-hero__bg">
+                  <div class="gradient-overlay"></div>
+                 <img class="thumbnail" src="images/program_banner.jpg" alt="image">
+          
+              </div>
+      
+      
+             
+              <div class="row s-hero__content">
+                  <div class="column">
+      
+                      
+      
+                      
+                      <div class="s-hero__content-about">
+      
+                          <p class="animate__animated animate__backInDown animate__slower  ">
+                            <!-- <p class="  "> -->
+                          <!-- Join with your dream startup idea<br>Go back with a business ready for -->
+
+
+                          You can be scared of scale.
+                          <br> Or you can be ready to
+                          </p>
+      
+                          <h1 class="animate__animated animate__backInUp animate__slower  button">
+                            
+                            <!-- <span   class="s-contact__programemail  " > -->
+                              Scale the waves
+                                 
+                                     
+                             
+                                <!-- </span>   -->
+
+ 
+                            
+                            </h1>
+                          
+                          <footer>
+                            <div class="s-hero__content-social button">
+                                <a href="https://www.facebook.com/ShahriarsUncommonSense"><i class="fab fa-facebook-f     animate__animated animate__fadeInBottomLeft     " aria-hidden="true"></i></a>
+                                <a href=" https://shahriaramin.net/"><i class="fa fa-globe    animate__animated animate__fadeInUp  " aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/shahriars.uncommon.sense/"><i class="fab fa-instagram    animate__animated animate__fadeInUp  " aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/channel/UCNzhU3emFzoZzQgG5_3dT3A/videos"><i class="fab fa-youtube   animate__animated animate__fadeInBottomRight  " aria-hidden="true"></i></a>
+                            </div>
+                        </footer>
+                     
+           
+                      </div>
+      
+                     
+                      
+                 
+      
+                  </div>
+              </div>
+      
+              <!-- <div class="s-hero__video">
+                  <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                      <span class="s-hero__video-text">Play Video</span>
+                  </a>
+              </div> -->
+      
+              <div class="s-hero__scroll">
+                  <a href="#about" class="s-hero__scroll-link smoothscroll button" cursor="link">
+                      Scroll Down
+                  </a>
+              </div>
+      
+          </section> <!-- end s-hero -->
+
+          </div>
+        
+        
+            <!-- about
+            ================================================== -->
+            <section id="about" class="s-about">
+        
+                <div class="horizontal-line"></div>
+        
+                <div class="row">
+                    <div class="column large-12">
+        
+                        <!-- <div class="section-title button" cursor="link" data-num="00" data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6"> OUR PROGRAMS</h3>
+                        </div> -->
+        
+                    </div>
+        
+                    <!-- <div class="column large-12 w-900-stack s-about__intro-text">
+                        <h1 class="display-1 button" cursor="link" data-aos="fade-up">
+                            Most startups fail for three reasons:
+                        </h1>
+        
+                        <p class="lead" data-aos="fade-up" >
+                            <li style="padding-left: 40px;">
+                                Lacking people capability
+                            </li>
+                            <li style="padding-left: 40px;">
+                                Business-model issues
+                            </li>
+                            <li style="padding-left: 40px;"> 
+                                Inability to scale
+                            </li>
+                          
+                        </p>
+                    </div> -->
+
+
+                    <!-- <div class="row narrower s-contact__top h-text-center">
+                      <div class="column">
+                       
+                          <h1 class="display-1">
+                            We are a scalability-focused startup incubator that ignites explosive growth in your revenue
+                            base through our
+                          </h1>
+
+                          <div class="column second_section_big_letter">
+                            <h1 class="s-contact__email">
+                              WARA advantage
+                            </h1>
+                        </div>
+                      </div>
+                  </div>   -->
+
+
+ 
+
+
+
+            <!-- contact
+            ================================================== -->
+            <section class="  column large-12  ">
+        
+              <!-- <div class="row narrower s-contact__top h-text-center">
+                  <div class="column">
+                
+                
+
+
+                    <h1 class="display-1  " data-aos="fade-up"  >
+                      You can be scared of scale. Or you can be ready to
+
+                      <br>
+ 
+                      
+                         <span   class="s-contact__programemail  " >
+                       Scale the waves
+                          
+                              
+                      
+                         </span>  
+ 
+                     
+                        </h1>
+
+
+                
+                  
+
+
+
+                  </div>
+              </div>   -->
+
+
+
+                          
+        
+
+
+
+      
+              <!-- <div class="row h-text-center">
+                <div class="column">
+                  <p class="s-contact__email button" style="  
+                  font-weight: 900;
+               
+               
+                  line-height: 0.8;
+                  color: var(--color-1);
+               
+                  margin-bottom: 0;
+                 
+                  position: relative;
+                  letter-spacing: -0.07em;
+ 
+                  ">
+                  WARA advantage.
+                  </p>
+              </div>
+              </div> -->
+ 
+
+        
+   
+          
+         
+
+                  
+        
+                    <!-- <div class="column large-6 w-900-stack s-about__photo-block button" cursor="link">
+                        <div class="s-about__photo" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></div>
+                    </div> -->
+                </div>
+       
+        
+                <!-- <div class="row narrower s-clients__top h-text-center">
+                    <div class="column">
+                        <h1 class="display-1 animate__animated animate__pulse 	animate__infinite animate__slower" data-aos="fade-up">
+                          What gives you Wara Advantage?
+                        </h1>
+                    </div>
+                </div>   -->
+        
+                <div class="row block-large-1-3 block-tab-full s-about__process item-list" style="margin-top: 30px;padding-bottom: 50px">
+                    <div class="column item item-process button" cursor="link" data-aos="fade-up">
+                        <h3 style="font-size: 18px;" class="item-title "  data-aos="fade-right"
+                        data-aos-duration="1000"><p style="padding-left: 25px;" data-aos="fade-left" data-aos-duration="2000">
+                            Most incubations focus on fundraising, and not enough on upskilling the team; creating a lack of people-fitness.
+                        </p></h3>
+                         
+                    </div>
+                    <div class="column item item-process button" cursor="link" data-aos="fade-up">
+                        <h3 style="font-size: 18px;" class="item-title "  data-aos="fade-right"
+                        data-aos-duration="1000"><p style="padding-left: 25px;" data-aos="fade-left" data-aos-duration="2000">
+                          Most founders are technologically savvy, not business development experts; which contributes to the lack of business-model fitness.
+                        </p></h3>
+                    </div>
+                    <div class="column item item-process button" cursor="link" data-aos="fade-up">
+                        <h3 style="font-size: 18px;" class="item-title "  data-aos="fade-right"
+                        data-aos-duration="1000"><p style="padding-left: 25px;" data-aos="fade-left" data-aos-duration="2000">
+                            Most startups fail to create hypergrowth after promising such growth during angel, pre-seed or seed-level investments.
+                        </p></h3>
+                    </div>
+
+                    <center>
+              
+
+                    <p class="lead" style="margin:0px 50px">Our programs are crafted, our mentors are curated and our startups are hand-picked keeping those gaps in mind.
+                        </p>
+        
+                        
+               
+                    </center>
+                   
+                </div>
+                
+ 
+    
+                    
+    
+                  
+         
+        
+            </section>  
+
+ 
+
+
+            <!-- Flagship 8-week Bootcamp
+            ================================================== -->
+            <section id="services" class="s-services" style="padding-top: 50px;">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="01"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">Flagship 8-week Bootcamp</h3>
+                        </div>
+                    </div>
+                
+                </div>
+        
+                <div class="row">
+
+                    <div class="column large-12 intro">
+        
+                        <!-- <h1>Business Development</h1> -->
+        
+                        <!-- <p class="lead">Startups can do 3-6 business development sessions where their specific business development challenges will be tackled. 
+                            <br>
+                            These sessions are provided one-to-one, and customized as per startup business needs. 
+                            
+                        </p> -->
+
+
+
+                        <section id="timeline">
+                            <article>
+                              <div class="inner" >
+                                <span class="date">
+                                 
+                                  <span class="month">1st</span>
+                                  <span class="year">WEEK</span>
+                                </span>
+
+
+
+                                <div data-aos="zoom-in-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <!-- <h2> <div class="focus_area" >
+                                  Focus Areas :
+                                </div>  <strong>Overview</strong> </h2> -->
+                                <p> <span style="color:#f14924">
+                                  What To Expect
+                                </span>  </p>
+                                </div>
+                          
+                                
+
+                              </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">2nd</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+
+                                    <div data-aos="zoom-in-left"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Problem Solution
+                                    </span>  </p>
+              
+                                    </div>
+
+
+
+                                     
+    
+                                  </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">3rd</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+
+                                    <div data-aos="zoom-in-right"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Product Market Fit
+                                    </span>  </p>
+                                      
+                                    </div>
+                                     
+    
+                                  </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">4th</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+                              
+
+
+
+                                    <div data-aos="zoom-in-left"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Go-To-Market (GTM)
+                                    </span>  </p>
+                                    
+                                    </div>
+
+
+
+    
+                                  </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">5th</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+
+
+
+                                    <div data-aos="zoom-in-right"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Brand Building
+                                    </span>  </p>
+                                    
+                                    </div>
+
+
+
+
+                                   
+    
+                                  </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">6th</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+                                 
+
+
+
+                                    <div data-aos="zoom-in-left"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Scale Up
+                                    </span>  </p>
+                                    
+
+                                    </div>
+
+                                    
+    
+                                  </div>
+                            </article>
+                            <article>
+                              <div class="inner">
+                                <span class="date">
+                                  <!-- <span class="day">30<sup>th</sup></span> -->
+                                  <span class="month">7TH</span>
+                                  <span class="year">WEEK</span>
+                                </span>
+                                
+
+
+
+
+                                <div data-aos="zoom-in-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <p> <span style="color:#f14924">
+                                  Presentation Skills
+                                </span>  </p>
+                                
+                                </div>
+
+
+
+                              </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <span class="date">
+                                      <!-- <span class="day">30<sup>th</sup></span> -->
+                                      <span class="month">8th</span>
+                                      <span class="year">WEEK</span>
+                                    </span>
+                                    
+
+                                    <div data-aos="zoom-in-left"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <p> <span style="color:#f14924">
+                                      Fundraising
+                                    </span>  </p>
+                                    
+
+
+                                    </div>
+    
+                                  </div>
+                            </article>
+                          </section>
+
+
+
+
+        
+                        
+                    </div>
+        
+                </div> <!-- end row -->
+        
+            </section> <!-- end s-services -->
+
+
+
+
+
+
+            <!-- Business Development
+            ================================================== -->
+            <section id="services" class="s-services">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="02"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">Business Development</h3>
+                        </div>
+                    </div>
+                
+                </div>
+        
+                <div class="row">
+
+                    <div class="column large-12 intro">
+        
+                        <!-- <h1>Business Development</h1> -->
+        
+                        <p class="lead">Startups can do 3-6 business development sessions where their specific business development challenges will be tackled. 
+                         
+                            These sessions are provided one-to-one, and customized as per startup business needs. 
+                            
+                        </p>
+        
+                        
+                    </div>
+        
+                </div> <!-- end row -->
+        
+            </section> <!-- end s-services -->
+
+
+
+
+
+
+            
+            <!-- Mentor Networking
+            ================================================== -->
+            <section id="services" class="s-services">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="03"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">Mentor Networking</h3>
+                        </div>
+                    </div>
+                
+                </div>
+        
+                <div class="row">
+
+                    <div class="column large-12 intro">
+        
+                        <!-- <h1>Business Development</h1> -->
+        
+                        <p class="lead">Rub shoulders with industry veterans and pick their brains with one-to-one and one-to-many mentoring and networking sessions. 
+                            
+                        </p>
+        
+                        
+                    </div>
+        
+                </div> <!-- end row -->
+        
+            </section> <!-- end s-services -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+            <!-- Customer Acquisition
+            ================================================== -->
+            <section id="services" class="s-services">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="04"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">Customer Acquisition</h3>
+                        </div>
+
+
+                        <p class="lead">In-depth training sessions on customer acquisition, as that is one of the key gap areas identified for startups 
+                            
+                        </p>
+                    </div>
+                
+                </div>
+
+
+
+
+
+                     <div class="row h-text-center">
+                <div class="column">
+                  <!-- <p class="s-contact__email button" style="  
+                  font-weight: 900;
+               
+               
+                  line-height: 0.8;
+                  color: var(--color-1);
+                  margin-top: 80px;
+                  margin-bottom: 40px;
+                 
+                  position: relative;
+                  letter-spacing: -0.07em;
+ 
+                  ">
+             GTM Strategy Framework
+                  </p> -->
+
+                  <h4 style="
+                   font-weight: 900;
+              
+          
+               margin-bottom: 40px;
+              
+               position: relative;
+               letter-spacing: -0.07em;
+                  "> GTM Strategy Framework</h4>
+                     </div>
+                </div>
+        
+                <div class="row block-large-1-3 block-tab-full s-services__services item-list" style="margin-top: 5px;">
+                    
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--GT1 animate__animated animate__bounce 	  animate__slower  "></span>
+                        <h3 class="item-title " data-aos="fade-right"
+                        data-aos-duration="1000" >Target-Messaging Fit</h3>
+                        <p data-aos="fade-left" data-aos-duration="2000" >
+                            Designing the right brand story as per the audience.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--GT2 animate__animated animate__bounce 	  animate__slower animate__delay-1s"></span>
+                        <h3 class="item-title" data-aos="fade-up"
+                        data-aos-duration="1000">Launch-Readiness Fit</h3>
+                        <p data-aos="fade-up" data-aos-duration="2000">
+                            Creating an impactful launch plan.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--GT3  animate__animated animate__bounce 	  animate__slower animate__delay-2s"></span>
+                        <h3 class="item-title" data-aos="fade-left"
+                        data-aos-duration="1000" >Growth-Capability Fit</h3>
+                        <p data-aos="fade-right" data-aos-duration="2000">
+                            Designing the right scaling-up capability without sacrificing ROI.
+                        </p>
+                    </div>
+         
+                </div>
+
+
+
+
+
+
+
+
+                <div class="row h-text-center">
+                    <div class="column">
+                      <!-- <p class="s-contact__email button" style="  
+                      font-weight: 900;
+                   
+                   
+                      line-height: 0.8;
+                      color: var(--color-1);
+                      margin-top: 80px;
+                      margin-bottom: 40px;
+                     
+                      position: relative;
+                      letter-spacing: -0.07em;
+     
+                      ">
+                Content Marketing Framework
+                      </p> -->
+
+
+
+                      <h4 style="
+                      font-weight: 900;
+                 
+             
+                  margin-bottom: 40px;
+                 
+                  position: relative;
+                  letter-spacing: -0.07em;
+                     ">  Content Marketing Framework</h4>
+                         </div>
+                    </div>
+                <div class="row block-large-1-3 block-tab-full s-services__services item-list" style="margin-top: 5px;">
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--CM1 animate__animated animate__bounce 	  animate__slower  "></span>
+                        <h3 class="item-title " data-aos="fade-right"
+                        data-aos-duration="1000" >Running Content Audit</h3>
+                        <p data-aos="fade-left" data-aos-duration="2000" >
+                            Understand how to analyze content marketing performance to find gaps.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--CM2 animate__animated animate__bounce 	  animate__slower animate__delay-1s"></span>
+                        <h3 class="item-title" data-aos="fade-up"
+                        data-aos-duration="1000">Developing Content Brief</h3>
+                        <p data-aos="fade-up" data-aos-duration="2000">
+                            Learn how to start the content marketing process in an effective & structured way.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--CM3  animate__animated animate__bounce 	  animate__slower animate__delay-2s"></span>
+                        <h3 class="item-title" data-aos="fade-left"
+                        data-aos-duration="1000" >Creating Content Strategy & Plan</h3>
+                        <p data-aos="fade-right" data-aos-duration="2000">
+                            Learn how to craft relevant and impactful content..
+                        </p>
+                    </div>
+         
+                </div>
+
+
+
+
+
+
+                <div class="row h-text-center">
+                    <div class="column">
+                      <!-- <p class="s-contact__email button" style="  
+                      font-weight: 900;
+                   
+                   
+                      line-height: 0.8;
+                      color: var(--color-1);
+                      margin-top: 80px;
+                      margin-bottom: 40px;
+                     
+                      position: relative;
+                      letter-spacing: -0.07em;
+     
+                      ">
+                 Brand Development Framework
+                      </p> -->
+
+
+
+                      <h4 style="
+                      font-weight: 900;
+                 
+             
+                  margin-bottom: 40px;
+                 
+                  position: relative;
+                  letter-spacing: -0.07em;
+                     ">    Brand Development Framework</h4>
+
+
+
+                         </div>
+                    </div>
+                <div class="row block-large-1-3 block-tab-full s-services__services item-list" style="margin-top: 5px;">
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--BD1 animate__animated animate__bounce 	  animate__slower  "></span>
+                        <h3 class="item-title " data-aos="fade-right"
+                        data-aos-duration="1000" >Creating Brand Framework</h3>
+                        <p data-aos="fade-left" data-aos-duration="2000" >
+                            Understand how to create a unique brand identity and positioning.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--BD2 animate__animated animate__bounce 	  animate__slower animate__delay-1s"></span>
+                        <h3 class="item-title" data-aos="fade-up"
+                        data-aos-duration="1000">Crafting Brand Strategy</h3>
+                        <p data-aos="fade-up" data-aos-duration="2000">
+                            Learn how to create a strategic brand marketing plan.
+                        </p>
+                    </div>
+                    <div class="column item item-service button" cursor="link" data-aos="fade-up">
+                        <span class="service-icon service-icon--BD3  animate__animated animate__bounce 	  animate__slower animate__delay-2s"></span>
+                        <h3 class="item-title" data-aos="fade-left"
+                        data-aos-duration="1000" >Activating Brand Effectively</h3>
+                        <p data-aos="fade-right" data-aos-duration="2000">
+                            Learn how to create an effective brand communication campaign.
+                        </p>
+                    </div>
+         
+                </div>
+        
+            </section> <!-- end s-services -->
+
+
+
+
+
+             <!-- Entity formation:
+            ================================================== -->
+            <section id="services" class="s-services">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="05"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">Entity formation:</h3>
+                        </div>
+                    </div>
+                
+                </div>
+        
+                <div class="row">
+
+                    <div class="column large-12 intro">
+        
+                        <!-- <h1>Business Development</h1> -->
+        
+                        <p class="lead">Facilitate to create entities in key startup markets such as North America, UAE, and Singapore, critical for business expansion and furndraising. 
+                            
+                        </p>
+        
+                        
+                    </div>
+        
+                </div> <!-- end row -->
+        
+            </section> <!-- end s-services -->
+
+
+
+
+
+
+                 <!-- CXO Co-sharing:
+            ================================================== -->
+            <!-- <section id="services" class="s-services">
+        
+                <div class="row">
+                    <div class="column large-12">
+                        <div class="section-title button" cursor="link" data-num="06"  data-aos="zoom-out-up" data-aos-duration="2000">
+                            <h3 class="h6">CXO Co-sharing:</h3>
+                        </div>
+                    </div>
+                
+                </div>
+        
+                <div class="row">
+
+                    <div class="column large-12 intro">
+        
+                  
+        
+                        <p class="lead">Provide CXO-level expertise flexibly packaged for early to mid-stage startups needing senior people bandwidth without the ability to afford one 
+                            
+                        </p>
+        
+                        
+                    </div>
+        
+                </div> 
+        
+            </section>  
+         -->
+        
+        
+        
+        
+        
+ 
+        
+ 
+        
+              <!-- contact
+            ================================================== -->
+            <section class="s-contact">
+        
+              <div class="row narrower s-contact__top h-text-center">
+                  <div class="column">
+                      <h3 class="h6">Get In Touch</h3>
+                      <h1 class="display-1 s-hero__content-about">
+                      Have an idea or an epic project in mind? Talk to
+                      us. Let us work together and make something great. Shoot us a message at
+                      </h1>
+                  </div>
+              </div>  
+      
+              <div class="row h-text-center">
+                  <div class="column">
+                      <p class="s-contact__email">
+                        <a href="https://mail.google.com/mail/?view=cm&to=shahriar@waraventures.com">shahriar@waraventures.com</a>
+                      </p>
+                  </div>
+              </div>
+
+<br><br>
+              <div class="row  s-contact__top h-text-center ">
+                <div class="column">
+                    <h3 class="h6"> Currently we have a presence in</h3>
+                    
+                    <h1 class="display-1 s-hero__content-about">
+                      DHAKA <span>&#8594;</span> TORONTO <span>&#8594;</span> SINGAPORE <span>&#8594;</span> DUBAI <span>&#8594;</span> ABU DHABI
+                    </h1>
+                </div>
+            </div> 
+            
+
+        
+              
+      
+          </section>  <!-- end s-contact -->
+      
+      
+          <!-- footer
+          ================================================== -->
+          <footer class="s-footer">
+              <div class="row row-y-top">
+      
+                  <div class="column large-8 medium-12">
+                      <div class="row">
+                        <div class="column large-7 tab-12 s-footer__block">
+                          <h4 class="h6">Where to Find Us</h4>
+          
+                          <p>
+                          1WARA VENTURES PTY <br>
+                          810 Geylang road, <br>
+                          #15-05, City Plaza,<br>
+                          Singapore, 409286 <br>
+                          <!-- <a href="tel:197-543-2345">+197 543 2345</a>
+                          </p> -->
+                      </div>
+              
+                          <div class="column large-5 tab-12 s-footer__block">
+                              <h4 class="h6">Follow Us</h4 class="h6">
+              
+                              <ul class="s-footer__list" style="margin-top: -0.01vw;">
+                                  <li><a href="https://www.facebook.com/ShahriarsUncommonSense">Facebook</a></li>
+              
+                                  <li><a href="https://www.instagram.com/shahriars.uncommon.sense/">Instagram</a></li>
+
+                                  <li><a href="https://shahriaramin.net/">Website</a></li>
+
+                                  <li><a href="https://www.youtube.com/channel/UCNzhU3emFzoZzQgG5_3dT3A/videos">Youtube</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="column large-4 medium-12 s-footer__block--end">
+                      <a href="https://mail.google.com/mail/?view=cm&to=shahriar@waraventures.com" class="btn h-full-width">Let's Talk</a>
+      
+                      <div class="ss-copyright">
+                          <span>Copyright  2023</span> 
+                          <span>Design by <a href="https://www.lietoeye.com/">LTE</a></span>
+                      </div>
+                  </div>
+      
+                  <div class="ss-go-top">
+                      <a class="smoothscroll" title="Back to Top" href="#top">
+                          top
+                      </a>
+                  </div> <!-- end ss-go-top -->
+      
+              </div>
+          </footer>
+            
+        
+            <!-- photoswipe background
+            ================================================== -->
+            <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        
+                <div class="pswp__bg"></div>
+                <div class="pswp__scroll-wrap">
+        
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+        
+                    <div class="pswp__ui pswp__ui--hidden">
+                        <div class="pswp__top-bar">
+                            <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                            "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                            "Zoom in/out"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                    <div class="pswp__preloader__cut">
+                                        <div class="pswp__preloader__donut"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div>
+                        </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                        "Next (arrow right)"></button>
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div> <!-- end photoSwipe background -->
+        
+        
+            <!-- Java Script
+            ================================================== -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+        
+         <script src="js/additional.js"></script>
+        
+        
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+        
+        
+            <script>
+         
+                function disableScroll(event) {
+                 
+                  event.preventDefault();
+                }
+                
+                 
+                document.addEventListener('DOMContentLoaded', function() {
+                  document.addEventListener('wheel', disableScroll, { passive: false });
+                  document.addEventListener('touchmove', disableScroll, { passive: false });
+                });
+                
+                 
+                function enableScroll() {
+                  document.removeEventListener('wheel', disableScroll, { passive: false });
+                  document.removeEventListener('touchmove', disableScroll, { passive: false });
+                }
+                 
+                setTimeout(enableScroll, 2000); 
+                
+                </script>
+        
+        
+                <!-- <script>
+                  var cursor = document.querySelector('.blob');
+        
+                document.addEventListener('mousemove', function(e){
+                  var x = e.clientX;
+                  var y = e.clientY;
+                  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+                });
+                </script> -->
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+        
+        
+                <script>
+                          var image = document.getElementsByClassName('thumbnail');
+                          new simpleParallax(image, {
+                          scale: 1.5
+                        });
+                </script>
+        
+        </main>
+  
+ 
+
+</body>
+
+</html>

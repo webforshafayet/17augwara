@@ -4282,6 +4282,9 @@ html.no-csstransitions .s-hero__content {
     .s-about{
         padding-top: 60px !important; 
     }
+    .wara_advanture_paragraph{
+        padding-top: 60px !important; 
+    }
 }
 
 @media screen and (max-width: 400px) {

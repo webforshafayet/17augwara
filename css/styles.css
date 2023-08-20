@@ -87,11 +87,10 @@
 /* ------------------------------------------------------------------- 
  * ## fonts
  * ------------------------------------------------------------------- */
-
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap");
+ 
 
 :root {
-    --font-1: "Nunito Sans", sans-serif;
+    --font-1: "Montserrat", sans-serif;
     --font-2: "Montserrat", sans-serif;
 
     /* monospace
@@ -2971,6 +2970,8 @@ input::-moz-focus-inner {
     line-height: var(--vspace-1_25);
     margin-top: 0;
     margin-bottom: var(--vspace-0_5);
+ 
+
 }
 
 
@@ -3515,14 +3516,14 @@ input::-moz-focus-inner {
         transform: translateY(0.3rem);
     }
 
-    .thumbnail{
+    /* .thumbnail{
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
         height: 110vh;
         width: 150vh;
     
-    }
+    } */
     
 }
 
@@ -3556,22 +3557,19 @@ input::-moz-focus-inner {
 .thumbnail{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 110vh;
-    width: 150vh;
-
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
  
     .thumbnail{
-        background-repeat: no-repeat;
-        background-position: center;
-    
-        height: 100vh;
- 
+       
+        object-fit: cover;
        
     
     }
@@ -4968,9 +4966,7 @@ html.no-csstransitions .s-hero__content {
         margin-top: -30px;
       
     }
-    .what_wara_advantage{
-        margin-top: -30px;
-    }
+ 
 
     .index_bannaerdown_section{
         padding-top: 30px;

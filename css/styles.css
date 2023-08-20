@@ -4885,7 +4885,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-1);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: var(--vspace-2);
 }
 
@@ -4977,7 +4977,7 @@ html.no-csstransitions .s-hero__content {
     }
 
     .s-contact__top{
-        margin-top: -50px;
+        margin-top: -30px;
     }
 }
 
@@ -4993,10 +4993,8 @@ html.no-csstransitions .s-hero__content {
 
 @media screen and (max-width: 400px) {
     .s-contact {
-        padding-top: var(--vspace-4);
+        /* padding-top: var(--vspace-4); */
     }
-
- 
 }
 
 
